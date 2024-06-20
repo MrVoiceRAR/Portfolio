@@ -1,24 +1,97 @@
 .home-page {
   font-family: Arial, sans-serif;
   padding: 20px;
-
-  section {
-    margin-bottom: 40px;
-
-    h1 {
-      color: #333;
-      margin-bottom: 10px;
-    }
-
-    p {
-      color: #666;
-    }
-  }
+  background-color: #ffba08;
 
   .about {
-    background-color: #f4f4f4;
+    background-color: #12130f;
     padding: 20px;
     border-radius: 8px;
+    justify-content: center;
+    text-align: left;
+    margin: 30px;
+    height: 700px;
+    display: flex;
+
+    // display: grid;
+
+    .text {
+      color: #ffba08;
+      position: relative;
+      text-align: left;
+      width: 400px;
+      height: fit-content;
+      top: 170px;
+      // margin-right: 10px;
+
+      h1 {
+        font-size: 45px;
+        color: #fff;
+        // font-size: ;
+        position: absolute;
+        // transform: translate(-50%, -50%);
+
+        &:nth-child(1) {
+          color: transparent;
+          -webkit-text-stroke: 2px #ffba08;
+        }
+
+        &:nth-child(2) {
+          color: #ffba08;
+          animation: animate 4s ease-in-out infinite;
+        }
+      }
+      p {
+        font-size: 20px;
+        margin-top: 250px;
+      }
+    }
+    // text animation
+    @keyframes animate {
+      0%,
+      100% {
+        clip-path: polygon(
+          0% 95%,
+          46% 50%,
+          33% 60%,
+          54% 70%,
+          70% 71%,
+          84% 89%,
+          100% 92%,
+          100% 100%,
+          0% 100%
+        );
+      }
+
+      50% {
+        clip-path: polygon(
+          0% 60%,
+          15% 65%,
+          34% 76%,
+          51% 72%,
+          67% 60%,
+          84% 55%,
+          100% 66%,
+          100% 100%,
+          0% 100%
+        );
+      }
+    }
+    // --------------
+
+    image {
+      height: 500px;
+      width: 500px;
+    }
+    .ProfilePicture {
+      background-color: red;
+      width: 500px;
+      height: 600px;
+      float: right;
+      position: relative;
+      margin-left: 150px;
+      margin-top: 50px;
+    }
   }
 
   .projects {
