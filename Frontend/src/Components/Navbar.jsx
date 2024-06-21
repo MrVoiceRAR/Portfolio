@@ -1,10 +1,10 @@
 import "../SCSS/Home/Navbar.scss";
-
+// import "../../public/vite.svg";
 const Navbar = () => {
   return (
     <div className="nav">
       <div className="logo">
-        <img src="../../Assets/maslo.png" alt="Maslo" />
+        <img src="../../public/Maslo1.png" alt="Maslo" />
         <h1 className="label">MASLO</h1>
       </div>
       <div className="buttons">

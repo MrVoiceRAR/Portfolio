@@ -4,6 +4,7 @@ import "../SCSS/Home/Main.scss";
 const HomePage = () => {
   return (
     <div className="home-page">
+      {/* Intro */}
       <div className="Introdaction">
         <div className="about">
           <div className="text">
@@ -16,20 +17,20 @@ const HomePage = () => {
               buisness
             </h1>
             <p>
-              {" "}
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
               debitis ad amet error suscipit consectetur repudiandae ut
               aspernatur, incidunt dicta labore dolores tenetur laboriosam, odit
               dolor rerum aliquam, consequuntur nulla.
             </p>
           </div>
-          <div className="ProfilePicture">
-            <image src="../Assets/Artem.jpg" alt="Photo" />
-          </div>
+
+          <img src="../../../public/Artem.jpg" alt="Photo" />
         </div>
       </div>
-
+      {/*  */}
+      {/* Projects */}
       <div className="projects">
+        {/* Skills */}
         <h1 data-text="My Skills">My Skills</h1>
         <div className="skill-list">
           <p>
@@ -51,31 +52,104 @@ const HomePage = () => {
             exercitationem omnis vitae!
           </p>
         </div>
+        {/* Tools */}
         <h2>Tools</h2>
         <div className="Tools">
-          <div className="tool">
-            <img src="" alt="HTML" />
-            <p>HTML</p>
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <h2 class="html">HTML</h2>
+
+                <p class="html">
+                  HTML (HyperText Markup Language) is the standard language used
+                  to create and structure webpages.
+                </p>
+              </div>
+            </div>
+            <div class="face face2">
+              <img className="lnglogo" src="../../public/html.svg" alt="Html" />
+            </div>
           </div>
-          <div className="tool">
-            <img src="" alt="SCSS" />
-            <p>SCSS</p>
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <h2 class="scss">SCSS</h2>
+
+                <p class="scss">
+                  Sass is a CSS preprocessor that adds features like variables,
+                  nested rules, and mixins for more efficient styling.
+                </p>
+              </div>
+            </div>
+            <div class="face face2">
+              <img src="../public/ScssLogo.svg" alt="Scss" />
+            </div>
           </div>
-          <div className="tool">
-            <img src="" alt="JS" />
-            <p>Js</p>
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <h2 class="js">JS</h2>
+
+                <p class="js">
+                  JavaScript (JS) is a programming language used to create
+                  interactive and dynamic content on webpages.
+                </p>
+              </div>
+            </div>
+            <div class="face face2">
+              <img src="./../public/jsLogo.svg" alt="JS" />
+            </div>
           </div>
-          <div className="tool">
-            <img src="" alt="ReactJS" />
-            <p>ReactJS</p>
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <h2 class="react">React</h2>
+
+                <p class="react">
+                  React is a JavaScript library for building user interfaces,
+                  especially single-page applications, with a component-based
+                  architecture.
+                </p>
+              </div>
+            </div>
+
+            <div class="face face2">
+              <img src="./../public/react-2.svg" alt="React" />
+            </div>
           </div>
-          <div className="tool">
-            <img src="" alt="Git" />
-            <p>Git</p>
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <h2 class="mysql">MySQl</h2>
+
+                <p class="mysql">
+                  MySQL is a relational database management system used for
+                  storing and managing data.
+                </p>
+              </div>
+            </div>
+            <div class="face face2">
+              <img
+                className="mysqllogo"
+                src="../public/MysqlLogo.svg"
+                alt="MySQL"
+              />
+            </div>
           </div>
-          <div className="tool">
-            <img src="" alt="MySql" />
-            <p>MySQL</p>
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <h2 class="git">GIT</h2>
+
+                <p class="git">
+                  Git is a version control system for tracking changes in code
+                  and collaborating on software development.
+                </p>
+              </div>
+            </div>
+            <div class="face face2">
+              <img src="../public/gitLogo.svg" alt="GIT" />
+            </div>
           </div>
         </div>
       </div>
