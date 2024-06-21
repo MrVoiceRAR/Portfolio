@@ -17,10 +17,14 @@ const HomePage = () => {
               buisness
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-              debitis ad amet error suscipit consectetur repudiandae ut
-              aspernatur, incidunt dicta labore dolores tenetur laboriosam, odit
-              dolor rerum aliquam, consequuntur nulla.
+              {" "}
+              I'm a passionate Front-End Developer with a keen eye for design
+              and a drive for seamless user experiences. As a young
+              professional, I bring a fresh perspective and experience with
+              modern web technologies. Originally from Ukraine, now living in
+              the USA, I am eager to grow my skills and contribute to exciting
+              projects, leveraging my diverse background for innovative
+              problem-solving.
             </p>
           </div>
 
@@ -34,24 +38,38 @@ const HomePage = () => {
         <h1 data-text="My Skills">My Skills</h1>
         <div className="skill-list">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-            explicabo alias nulla culpa laudantium, aliquid aut debitis fugit
-            animi exercitationem minus esse recusandae earum iste quos suscipit
-            rem quisquam repudiandae!
+            <b>Communicable:</b> Effective at conveying ideas and collaborating
+            across languages.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-            mollitia officiis eveniet neque reiciendis minima dicta voluptatibus
-            eum ducimus. Illum incidunt, voluptatem reiciendis unde deleniti
-            saepe minus et repellendus ullam!
+            <b>Multilingual:</b> Fluent in English, Ukrainian, Russian, and
+            Polish, facilitating clear communication in diverse settings.
           </p>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis,
-            expedita? Eum sapiente illum omnis nulla tempore neque id animi
-            iusto, ipsam repellat atque minima. Harum aperiam molestiae
-            exercitationem omnis vitae!
+            <b>Creative:</b> Excels at generating and developing innovative
+            ideas and solutions.
+          </p>
+
+          <p>
+            <b>Team Player:</b> Strong collaborator who thrives in group
+            environments, contributing positively to team dynamics and achieving
+            collective goals.
+          </p>
+          <p>
+            <b>Receptive to Criticism:</b> Values feedback as an opportunity for
+            growth and improvement, actively listening and incorporating
+            constructive input.
+          </p>
+          <p>
+            <b>Goal-Oriented:</b> Driven by a passion for achieving objectives
+            and overcoming challenges with determination.
+          </p>
+          <p>
+            <b>Assertive:</b> Capable of confidently defending positions and
+            advocating for ideas with clarity and conviction.
           </p>
         </div>
+
         {/* Tools */}
         <h2>Tools</h2>
         <div className="Tools">
