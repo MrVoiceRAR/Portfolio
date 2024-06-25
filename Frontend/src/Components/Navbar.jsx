@@ -1,5 +1,4 @@
 import "../SCSS/Home/Navbar.scss";
-// import "../../public/vite.svg";
 const Navbar = () => {
   return (
     <div className="nav">

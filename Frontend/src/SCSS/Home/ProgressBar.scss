@@ -1,0 +1,64 @@
+.range {
+  position: relative;
+  background-color: #333;
+  width: 600px;
+  height: 60px;
+  transform: skew(30deg);
+  color: #ffba08;
+  margin-top: 100px;
+  &::before {
+    --width: calc(var(--p) * 1%);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+
+    background: linear-gradient(-5deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    z-index: 0;
+    animation: load 0.5s forwards linear, gradient 15s ease infinite;
+  }
+
+  &::after {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    counter-reset: progress var(--p);
+    // content: counter(progress) "%";
+    content: "3 Years";
+    color: #000;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%) skewX(-30deg);
+    z-index: 1;
+    color: #ffba08;
+  }
+
+  &__label {
+    transform: skew(-30deg) translateY(-100%);
+    line-height: 1.5;
+    font-size: 50px;
+    font-family: RegularFont;
+  }
+}
+
+@keyframes load {
+  to {
+    width: var(--width);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

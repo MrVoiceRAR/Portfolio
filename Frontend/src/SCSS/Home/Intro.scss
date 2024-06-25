@@ -1,0 +1,93 @@
+@font-face {
+  font-family: LabelFont;
+  src: url(../../../public/Fonts/FontLabel.ttf);
+}
+
+@font-face {
+  font-family: RefularFont;
+  src: url(../../../public/Fonts/RegularFont.otf);
+}
+
+.about {
+  background-color: #12130f;
+  padding: 15px;
+  border-radius: 8px;
+  justify-content: center;
+  text-align: left;
+  margin: 30px;
+  height: 800px;
+  display: flex;
+  margin-top: 100px;
+
+  .text {
+    color: #ffba08;
+    position: relative;
+    text-align: left;
+    width: 400px;
+    height: fit-content;
+    top: 170px;
+
+    h1 {
+      font-size: 45px;
+      position: absolute;
+      &:nth-child(1) {
+        color: transparent;
+        -webkit-text-stroke: 2px #ffba08;
+      }
+
+      &:nth-child(2) {
+        color: #ffba08;
+        animation: animate 4s ease-in-out infinite;
+      }
+    }
+    p {
+      color: #86a8cf;
+      font-size: 20px;
+      margin-top: 250px;
+    }
+  }
+  // text animation
+  @keyframes animate {
+    0%,
+    100% {
+      clip-path: polygon(
+        0% 95%,
+        46% 50%,
+        33% 60%,
+        54% 70%,
+        70% 71%,
+        84% 89%,
+        100% 92%,
+        100% 100%,
+        0% 100%
+      );
+    }
+
+    50% {
+      clip-path: polygon(
+        0% 60%,
+        15% 65%,
+        34% 76%,
+        51% 72%,
+        67% 60%,
+        84% 55%,
+        100% 66%,
+        100% 100%,
+        0% 100%
+      );
+    }
+  }
+  // --------------
+
+  img {
+    height: 600px;
+    width: 480px;
+    float: right;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 150px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 100px 5px #ffba08;
+    background-color: #12130f;
+  }
+}

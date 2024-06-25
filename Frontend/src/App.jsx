@@ -1,11 +1,14 @@
 import "./App.css";
-import Main from "./Components/Main.jsx";
+import HomePage from "./Components/HomePage.jsx";
 import Navbar from "./Components/Navbar.jsx";
+import Footer from "./Components/Home/Footer.jsx";
+
 function App() {
   return (
     <>
       <Navbar />
-      <Main />
+      <HomePage />
+      <Footer />
     </>
   );
 }

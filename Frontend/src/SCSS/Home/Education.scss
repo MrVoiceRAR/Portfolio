@@ -1,0 +1,124 @@
+@font-face {
+  font-family: LabelFont;
+  src: url(../../../public/Fonts/FontLabel.ttf);
+}
+
+@font-face {
+  font-family: RefularFont;
+  src: url(../../../public/Fonts/RegularFont.otf);
+}
+
+.education {
+  background-color: #12130f;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 30px;
+  height: 1500px;
+  margin-top: 30px;
+
+  .EducationLabel {
+    text-align: center;
+    margin: 25px;
+    font-family: LabelFont;
+    color: #ffba08;
+
+    h1 {
+      color: #ffba08;
+      position: relative;
+      font-size: 80px;
+      letter-spacing: 5px;
+      font-family: LabelFont;
+      display: table;
+      margin: 10px auto;
+      transition: 0.6s;
+
+      &:before,
+      &:after {
+        content: attr(data-text);
+        transition: 0.6s;
+      }
+
+      &:before {
+        left: 0;
+        top: 0;
+        position: absolute;
+        z-index: -1;
+        text-shadow: 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px,
+          0px 0px, 0px 0px, 0px 0px, 0px 0px;
+        -webkit-mask: repeating-linear-gradient(
+          45deg,
+          transparent 0 3px,
+          rgba(0, 0, 0, 0.5) 0 6px
+        );
+        mask: repeating-linear-gradient(
+          45deg,
+          transparent 0 3px,
+          rgba(0, 0, 0, 0.5) 0 6px
+        );
+      }
+
+      &:hover {
+        transform: translate(-10px, -10px);
+
+        &:before {
+          text-shadow: 1px 1px, 2px 2px, 3px 3px, 4px 4px, 5px 5px, 6px 6px,
+            7px 7px, 8px 8px, 9px 9px, 10px 10px;
+        }
+      }
+    }
+  }
+  .LvivPhoto {
+    margin: 15px;
+    text-align: center;
+    img {
+      width: 900px;
+      height: auto;
+      border-radius: 5%;
+      margin: 40px 0;
+      box-shadow: 0 0 60px 5px #ecede5;
+    }
+    .mainInfo {
+      margin: 0px 100px;
+      font-family: RegularFont;
+      color: #ffba08;
+
+      h2 {
+        font-size: 40px;
+      }
+      p {
+        color: #86a8cf;
+        font-size: 25px;
+        margin-top: 25px;
+        text-align: left;
+        width: auto;
+        height: fit-content;
+      }
+    }
+  }
+  .universityinfo {
+    color: #ffba08;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    .Propilites {
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;
+      .text {
+        color: #86a8cf;
+        text-align: left;
+        font-size: 30px;
+        b {
+          color: #ffba08;
+        }
+      }
+    }
+    .ProgressBarPos {
+      color: #ffba08;
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

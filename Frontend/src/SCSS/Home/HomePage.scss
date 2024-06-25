@@ -1,0 +1,25 @@
+@font-face {
+  font-family: LabelFont;
+  src: url(../../../public/Fonts/FontLabel.ttf);
+}
+
+@font-face {
+  font-family: RefularFont;
+  src: url(../../../public/Fonts/RegularFont.otf);
+}
+
+.home-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #ffba08;
+}
+
+.contact {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+
+  p {
+    margin: 5px 0;
+  }
+}
