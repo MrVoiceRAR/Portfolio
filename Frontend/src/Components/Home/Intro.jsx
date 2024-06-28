@@ -23,7 +23,10 @@ const Intro = () => {
           </p>
         </div>
 
-        <img src="../../../public/Artem1.jpg" alt="Photo" />
+        <img
+          src="https://imgmasloportfolioaboba.blob.core.windows.net/images/Artem1.jpg"
+          alt="Photo"
+        />
       </div>
     </div>
   );

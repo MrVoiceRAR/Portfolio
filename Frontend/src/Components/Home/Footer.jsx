@@ -23,7 +23,10 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-company-info">
         <div className="footer-img">
-          <img src="../../../../public/react-2.svg" alt="aboba" />
+          <img
+            src="https://imgmasloportfolioaboba.blob.core.windows.net/images/react-2.svg"
+            alt="aboba"
+          />
           {/* <span>Made on React</span> */}
         </div>
       </div>

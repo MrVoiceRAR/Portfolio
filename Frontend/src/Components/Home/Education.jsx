@@ -7,7 +7,10 @@ const Education = () => {
         <h1 data-text="EDUCATION"></h1>
       </div>
       <div className="LvivPhoto">
-        <img src="../../../public/LvivPoli.jpg" alt="Uni" />
+        <img
+          src="https://imgmasloportfolioaboba.blob.core.windows.net/images/LvivPoli.jpg"
+          alt="Uni"
+        />
         <div className="mainInfo">
           <h2>Lviv Polytechnic</h2>
           <h2>National University</h2>

@@ -3,7 +3,10 @@ const Navbar = () => {
   return (
     <div className="nav">
       <div className="logo">
-        <img src="../../public/Maslo1.png" alt="Maslo" />
+        <img
+          src="https://imgmasloportfolioaboba.blob.core.windows.net/images/Maslo1.png"
+          alt="Maslo"
+        />
         <h1 className="label">MASLO</h1>
       </div>
       <div className="buttons">

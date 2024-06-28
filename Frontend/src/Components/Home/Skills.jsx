@@ -53,7 +53,11 @@ const Skills = () => {
             </div>
           </div>
           <div class="face face2">
-            <img className="lnglogo" src="../../public/html.svg" alt="Html" />
+            <img
+              className="lnglogo"
+              src="https://imgmasloportfolioaboba.blob.core.windows.net/images/html.svg"
+              alt="Html"
+            />
           </div>
         </div>
         <div class="card">
@@ -68,7 +72,10 @@ const Skills = () => {
             </div>
           </div>
           <div class="face face2">
-            <img src="../public/ScssLogo.svg" alt="Scss" />
+            <img
+              src="https://imgmasloportfolioaboba.blob.core.windows.net/images/ScssLogo.svg"
+              alt="Scss"
+            />
           </div>
         </div>
         <div class="card">
@@ -83,7 +90,10 @@ const Skills = () => {
             </div>
           </div>
           <div class="face face2">
-            <img src="./../public/jsLogo.svg" alt="JS" />
+            <img
+              src="https://imgmasloportfolioaboba.blob.core.windows.net/images/jsLogo.svg"
+              alt="JS"
+            />
           </div>
         </div>
         <div class="card">
@@ -100,7 +110,10 @@ const Skills = () => {
           </div>
 
           <div class="face face2">
-            <img src="./../public/react-2.svg" alt="React" />
+            <img
+              src="https://imgmasloportfolioaboba.blob.core.windows.net/images/react-2.svg"
+              alt="React"
+            />
           </div>
         </div>
         <div class="card">
@@ -117,7 +130,7 @@ const Skills = () => {
           <div class="face face2">
             <img
               className="mysqllogo"
-              src="../public/MysqlLogo.svg"
+              src="https://imgmasloportfolioaboba.blob.core.windows.net/images/MysqlLogo.svg"
               alt="MySQL"
             />
           </div>
@@ -134,7 +147,10 @@ const Skills = () => {
             </div>
           </div>
           <div class="face face2">
-            <img src="../public/gitLogo.svg" alt="GIT" />
+            <img
+              src="https://imgmasloportfolioaboba.blob.core.windows.net/images/gitLogo.svg"
+              alt="GIT"
+            />
           </div>
         </div>
       </div>
@@ -151,7 +167,11 @@ const Skills = () => {
             </div>
           </div>
           <div class="face face2">
-            <img className="lnglogo" src="../../public/html.svg" alt="Html" />
+            <img
+              className="lnglogo"
+              src="https://imgmasloportfolioaboba.blob.core.windows.net/images/html.svg"
+              alt="Html"
+            />
           </div>
         </div>
       </div>
