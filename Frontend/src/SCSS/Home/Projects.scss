@@ -7,9 +7,16 @@
   margin: 30px;
   height: 800px;
   display: flex;
+  color: red;
+  display: flex;
+  position: relative;
+  // justify-content: center;
   .ProjectLabel {
     color: red;
     font-size: 40px;
     margin: 25px;
+  }
+  .project1 {
+    // display: flex;
   }
 }
