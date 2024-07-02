@@ -1,7 +1,7 @@
 import "../../SCSS/Home/Intro.scss";
 const Intro = () => {
   return (
-    <div className="Introdaction">
+    <div className="Introdaction" id="home">
       <div className="about">
         <div className="text">
           <h1>

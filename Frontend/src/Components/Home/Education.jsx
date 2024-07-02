@@ -2,7 +2,7 @@ import "../../SCSS/Home/Education.scss";
 import ProgressBar from "./ProgressBar";
 const Education = () => {
   return (
-    <div className="education">
+    <div className="education" id="education">
       <div className="EducationLabel">
         <h1 data-text="EDUCATION"></h1>
       </div>
@@ -36,9 +36,6 @@ const Education = () => {
               <b>Period of study:</b> 4 Years
             </p>
           </div>
-        </div>
-        <div className="ProgressBarPos">
-          <ProgressBar />
         </div>
       </div>
     </div>

@@ -10,6 +10,9 @@
 
 .about {
   background-color: #12130f;
+  // background: linear-gradient(156deg, rgba(255,55,8,1) 5%, rgba(254,8,255,1) 97%);
+  // background: linear-gradient(156deg, rgba(91,17,0,1) 5%, rgba(127,0,128,1) 97%);
+  // background-color: rgba(91, 17, 0, 1);
   padding: 15px;
   border-radius: 8px;
   justify-content: center;
@@ -17,8 +20,13 @@
   margin: 30px;
   height: 800px;
   display: flex;
-  margin-top: 100px;
-
+  margin-top: 40px;
+  margin-top: 80px;
+  &::before {
+    height: 50px;
+    display: block;
+    content: "";
+  }
   .text {
     color: #ffba08;
     position: relative;

@@ -1,7 +1,7 @@
 import "../../SCSS/Home/Skills.scss";
 const Skills = () => {
   return (
-    <div className="projects">
+    <div className="projects" id="skills">
       {/* Skills */}
       <h1 data-text="My Skills">My Skills</h1>
       <div className="skill-list">

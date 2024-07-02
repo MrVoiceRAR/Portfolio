@@ -1,7 +1,7 @@
 import "../../SCSS/Home/Projects.scss";
 const Projects = () => {
   return (
-    <div className="ProjectMain">
+    <div className="ProjectMain" id="projects">
       <div className="ProjectLabel">
         <h1>Projects</h1>
       </div>

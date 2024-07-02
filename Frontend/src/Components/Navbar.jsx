@@ -10,10 +10,11 @@ const Navbar = () => {
         <h1 className="label">MASLO</h1>
       </div>
       <div className="buttons">
-        <button>Home</button>
-        <button>Skills</button>
-        <button>Projects</button>
-        <button>Contact</button>
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contacts">Contacts</a>
       </div>
     </div>
   );
